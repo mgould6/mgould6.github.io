@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Current: Chess",
+    "tags": [ "c#", "chess" , "AI", "ML"],
+    "repo": "https://github.com/mgould6/mgould6/tree/main/Chess%20Project"
+  },
+  {
+    "name": "Code Archive",
+    "tags": [ "C++", "Must Know", "Data Structures", "Dynamic Programming", "OpenGL", "C#", "Sorts & Algorithms", "Stacks", "Trees", "Young Tableau" ],
+    "repo": "https://github.com/mgould6/mgould6/tree/main/Code%20Archive"
+  }
+]
