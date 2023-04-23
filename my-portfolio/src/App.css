@@ -1,6 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+body {
+    background-color: #FBFBFB;
+}
+.headerFont {
+    font-family: 'Oxygen', sans-serif;
+}
+
+body, html {
+    font-family: 'Oxygen', sans-serif;
+    line-height: 1.6;
+    color: #131B60;
+    margin: 0;
+    padding: 0;
+    color: 'rgb(19,27,67)';
+}
+
+
+@media (max-width: 767.98px) {
+    .home-page {
+        max-width: 100% !important;
+    }
+    .headerFont {
+        display:none !important;
+    }
+    .scroll-indicator {
+        position: unset !important;
+        padding-top: 20px;
+    }
+    .home-page {
+        background-size: contain !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-text {
+        display: none;
+    }
+
+    
+}
+.scroll-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 46%;
+    transform: translate(-50%, 0);
+    animation: bounce 2s infinite;
+    font-weight: bold;
+    color: #339999;
+}
+
+.scroll-indicator2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    animation: bounce 2s infinite;
+    font-weight: bold;
+    color: #339999;
+}
+.nav-text {
+    position: absolute;
+    left: 25%;
+    right: 15px;
+    top: 25%;
+    z-index: 1001;
+    color: white;
+}
+
+
+
+
+
 .App {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .App-logo {
@@ -39,19 +115,14 @@
     }
 }
 
-body,html {
-    font-family: 'Roboto',Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
+
 
 
 .about-page {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+
 }
 
 .about-section {
@@ -61,10 +132,10 @@ body,html {
 }
 
 .profile-photo {
-    max-width: 150px;
-    max-height: 150px;
-    margin-right: 20px;
-    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20%;
 }
 
 .about-text {
@@ -76,7 +147,7 @@ body,html {
     }
 
     .about-text a {
-        color: #007bff;
+        color: #499696;
         text-decoration: none;
     }
 
@@ -119,6 +190,7 @@ header {
 /* Main content styles */
 main {
     padding: 2rem;
+    background-color: #131B43;
 }
 
 /* Footer styles */
@@ -129,3 +201,41 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+
+.arrow {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+
+

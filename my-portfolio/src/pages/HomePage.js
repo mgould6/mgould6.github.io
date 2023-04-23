@@ -1,31 +1,57 @@
 import React from 'react';
+import heroImage from '../bikes.gif';
+import { Container, Row, Col } from 'react-bootstrap';
+import '../App.css';
 
 const HomePage = () => {
+    const heroStyle = {
+        backgroundImage: `url(${heroImage})`,
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        minHeight: '100vh',
+        maxWidth: '80%',
+        margin: '0 auto',
+        color: 'dimgray',
+        paddingTop: '75px',
+        className: 'home-page',
+
+    };
+
+    const introStyle = {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: '#333366',
+
+    };
+
+    const handleScroll = (elementId) => {
+        const element = document.getElementById(elementId);
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
     return (
-        <div className="home-page">
-            <section className="intro">
-                <h1>Michael J. Gould, III</h1>
-                <h2>Web Developer and Software Engineer</h2>
-                <p>
-                    Adaptable software engineer with a comprehensive background in web development, application support, and software design, excelling in delivering client-centric solutions. Experienced in collaborating with cross-functional teams to develop high-quality, scalable products, I am proficient in troubleshooting, resolving technical challenges, and maintaining software systems.
-                </p>
-            </section>
-
-            <section className="skills">
-                <h3>Technical Proficiencies/Skills</h3>
-                <ul>
-                    <li>Language: C++, C#, OpenGL, JavaScript, Python, React, Vue, jQuery</li>
-                    <li>Program: Unreal Engine, Visual Studio, Microsoft Office</li>
-                    <li>Software: MySQL, Git, Jenkins, Teamwork, Azure, AWS</li>
-                    <li>Framework: OpenGL, SQL, .NET, WPF, Hubspot, Wordpress</li>
-                </ul>
-            </section>
-
-            <section className="call-to-action">
-                <p>Interested in learning more about my work and projects?</p>
-                <button>View Projects</button>
-                <button>Contact Me</button>
-            </section>
+        <div id="home" className="home-page content-page" style={heroStyle}>
+            <Container>
+                <Row className="justify-content-between align-items-center">
+                    <Col>
+                        <section className="intro headerFont" style={introStyle}>
+                            <h1><b>Michael Gould</b></h1>
+                            <h2><b>Web Developer - Software Engineer</b></h2>
+                        </section>
+                    </Col>
+                </Row>
+                
+            </Container>
+            <Col md={12}>
+            <div className="scroll-indicator" onClick={() => handleScroll('about')}>
+                <span className="arrow">&#8595;</span>
+                <p>Keep on Rollin'</p>
+                <span className="arrow">&#8595;</span>
+            </div>
+            </Col>
         </div>
     );
 };

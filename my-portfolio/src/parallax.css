@@ -1,0 +1,25 @@
+.parallax-section {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.parallax-image-1 {
+    background-image: url('path/to/your/image1.jpg');
+}
+
+.parallax-image-2 {
+    background-image: url('path/to/your/image2.jpg');
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}

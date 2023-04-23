@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { contentPageStyle } from '../styles';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -23,8 +24,9 @@ const ContactPage = () => {
       message: '',
     });
   };
-
-  return (
+ 
+    return (
+        <div id="contact" style={contentPageStyle}>
     <Container>
       <Row>
         <Col>
@@ -72,7 +74,6 @@ const ContactPage = () => {
         <Col>
           <h2>Contact Information</h2>
           <p>Email: mjgould06@gmail.com</p>
-          <p>Phone: (847) 220-3330</p>
           <h3>Social Media Profiles</h3>
           <p>
             LinkedIn:{' '}
@@ -96,7 +97,10 @@ const ContactPage = () => {
           </p>
         </Col>
       </Row>
-    </Container>
+            </Container>
+            
+
+        </div>
   );
 };
 
