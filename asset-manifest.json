@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mgould6.github.io/static/css/main.15a615ed.css",
-    "main.js": "/mgould6.github.io/static/js/main.995d8580.js",
-    "static/js/787.128fc6e9.chunk.js": "/mgould6.github.io/static/js/787.128fc6e9.chunk.js",
-    "static/media/bikes.gif": "/mgould6.github.io/static/media/bikes.415a12e4058affff4a72.gif",
-    "static/media/me2.jpg": "/mgould6.github.io/static/media/me2.56fb89c9743f80fa9aa3.jpg",
-    "index.html": "/mgould6.github.io/index.html",
-    "main.15a615ed.css.map": "/mgould6.github.io/static/css/main.15a615ed.css.map",
-    "main.995d8580.js.map": "/mgould6.github.io/static/js/main.995d8580.js.map",
-    "787.128fc6e9.chunk.js.map": "/mgould6.github.io/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/my-portfolio/static/css/main.15a615ed.css",
+    "main.js": "/my-portfolio/static/js/main.c79a9229.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/bikes.gif": "/my-portfolio/static/media/bikes.415a12e4058affff4a72.gif",
+    "static/media/me2.jpg": "/my-portfolio/static/media/me2.56fb89c9743f80fa9aa3.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.15a615ed.css.map": "/my-portfolio/static/css/main.15a615ed.css.map",
+    "main.c79a9229.js.map": "/my-portfolio/static/js/main.c79a9229.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15a615ed.css",
-    "static/js/main.995d8580.js"
+    "static/js/main.c79a9229.js"
   ]
 }
