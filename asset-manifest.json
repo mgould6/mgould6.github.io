@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.df8307d8.css",
-    "main.js": "/static/js/main.4a3c5647.js",
+    "main.js": "/static/js/main.448e74a8.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/strava.gif": "/static/media/strava.407bb0f8e69abde00070.gif",
-    "static/media/bikes.gif": "/static/media/bikes.415a12e4058affff4a72.gif",
+    "static/media/strava.gif": "/static/media/strava.ed728448264ba4ae5d1e.gif",
+    "static/media/bikes.gif": "/static/media/bikes.182c37ce3c5abc6b4908.gif",
     "static/media/me2.jpg": "/static/media/me2.56fb89c9743f80fa9aa3.jpg",
     "index.html": "/index.html",
     "main.df8307d8.css.map": "/static/css/main.df8307d8.css.map",
-    "main.4a3c5647.js.map": "/static/js/main.4a3c5647.js.map",
+    "main.448e74a8.js.map": "/static/js/main.448e74a8.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df8307d8.css",
-    "static/js/main.4a3c5647.js"
+    "static/js/main.448e74a8.js"
   ]
 }
